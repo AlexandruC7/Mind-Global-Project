@@ -1,3 +1,5 @@
+import "./style.css";
+
 export const Contacte = () => {
-  return <div>contacte</div>;
+  return <div className="contacte">contacte</div>;
 };
