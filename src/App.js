@@ -1,5 +1,6 @@
 import React from "react";
-import Desprenoi from "./components/desprenoi/desprenoi";
+import { Desprenoi } from "./components/desprenoi/desprenoi";
+
 function App() {
   return (
     <div className="App">
