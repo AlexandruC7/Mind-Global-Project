@@ -1,8 +1,14 @@
-.desprenoi {
-  background: gray;
-  height: 100vh;
-  width: 100%;
+#text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 22px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: left;
+  padding-right: 600px;
+}
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  background: rgb(241, 241, 237);
 }
