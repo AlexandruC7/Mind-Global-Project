@@ -29,7 +29,9 @@ export function Desprenoi() {
         <br /> Suntem aici pentru a vă ajuta!
       </p>
 
-      <video src="/Green Gradient Business Digital Marketing Intro Youtube Video (1) (1) (1).mp4" />
+      <div class="prezentare">
+        <a href=""></a>
+      </div>
     </div>
   );
 }
