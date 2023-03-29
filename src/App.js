@@ -1,9 +1,10 @@
 import React from "react";
 
-import { Contacte } from "./components/contacte";
+import { Contacte } from "./components/contacte/contacte";
 import { Desprenoi } from "./components/desprenoi/desprenoi";
-import { Header } from "./components/header";
-import { Servicii } from "./components/servicii";
+import { Header } from "./components/header/header";
+import { Servicii } from "./components/servicii/servicii";
+import { Homepage } from "./components/homepage/homepage";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Desprenoi />
       <Servicii />
       <Contacte />
+      <Homepage />
     </div>
   );
 }
