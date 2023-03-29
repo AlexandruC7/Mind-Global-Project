@@ -5,6 +5,7 @@ import { Desprenoi } from "./components/desprenoi/desprenoi";
 import { Header } from "./components/header/header";
 import { Servicii } from "./components/servicii/servicii";
 import { Homepage } from "./components/homepage/homepage";
+import { Button } from "./components/button/button";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Homepage />
       <Desprenoi />
       <Servicii />
+      <Button />
       <Contacte />
 
     </div>
