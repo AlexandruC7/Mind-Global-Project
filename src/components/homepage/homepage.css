@@ -1,0 +1,7 @@
+.homepage {
+    background-color: rgb(235, 88, 51);
+    display: flex;
+    padding: 50px;
+    height: calc(100vh - 100px);
+
+}
