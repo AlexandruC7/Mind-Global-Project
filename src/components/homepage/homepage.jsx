@@ -1,11 +1,10 @@
 import "./homepage.css"
-import BgVideo from './video-bg.mp4'
 
 
 export const Homepage = () => {
   return (
   <div className="homepage">
-    <video src={BgVideo} autoPlay muted loop class="video-bg"/>
+    <video src="./video-bg.mp4" autoPlay muted loop class="video-bg"/>
 
     <div className="bg-overlay" ></div>
 
