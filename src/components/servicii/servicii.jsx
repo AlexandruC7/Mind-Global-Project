@@ -1,11 +1,15 @@
 import "./servicii.css";
 import AddCardIcon from "@mui/icons-material/AddCard";
 import MovingIcon from "@mui/icons-material/Moving";
+import ReceiptIcon from "@mui/icons-material/Receipt";
+import FeaturedPlayListIcon from "@mui/icons-material/FeaturedPlayList";
+import YardIcon from "@mui/icons-material/Yard";
 
 export const Servicii = () => {
   return (
     <div className="newcomponent">
       <h1>Serviciile Noastre</h1>
+      <div className="linie"></div>
       <div className="produse">
         <h2>Produsele</h2>
         <div className="produse1">
@@ -21,7 +25,10 @@ export const Servicii = () => {
             </p>
           </div>
           <div className="produs aldoileaprodus">
-            <h3 className="class">Pliante</h3>
+            <div className="title">
+              <ReceiptIcon />
+              <h3 className="class">Pliante</h3>
+            </div>
             <p className="text">
               Tipăritură conținând fotografii, prospecte, cataloage, informații
               etc. imprimate pentru reclamă, îndoită de mai multe ori pentru
@@ -29,14 +36,21 @@ export const Servicii = () => {
             </p>
           </div>
           <div className="produs altreileaprodus">
-            <h3 className="class">Panou Publicitar</h3>
+            <div className="title">
+              <FeaturedPlayListIcon />
+              <h3 className="class">Panou Publicitar</h3>
+            </div>
             <p className="text">
               O structură instalată atât pe fațada clădirii, chiar în fața
               intrării, cât și în interiorul camerei (birou recepție).
             </p>
           </div>
           <div className="produs al patruleaprodus">
-            <h3 className="class">Placuțe Personalizate</h3>
+            <div className="title">
+              <YardIcon />
+              1`1`
+              <h3 className="class">Placuțe Personalizate</h3>
+            </div>
             <p className="text">Logo + alte informații la preferință</p>
           </div>
           <div className="produs al cinceleaprodus">
@@ -60,7 +74,7 @@ export const Servicii = () => {
             <MovingIcon />
             <h3 className="class2">Site</h3>
           </div>
-          <p className="text2">
+          <p className="text">
             Crearea unui site bazat pe activitatea întreprinderii voastre cu
             scopul de a comercializa serviciile și produsele în mediul online
           </p>
