@@ -22,3 +22,19 @@
   font-size: 20px;
   margin-left: 10px;
 }
+.serviciilenoastretitle {
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+.linie1 {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 2px;
+  width: 30%;
+  margin: 10px 0;
+}
+
+.newcomponent {
+  padding: 50px;
+}

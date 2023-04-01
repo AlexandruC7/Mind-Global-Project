@@ -8,10 +8,14 @@ import YardIcon from "@mui/icons-material/Yard";
 export const Servicii = () => {
   return (
     <div className="newcomponent">
-      <h1>Serviciile Noastre</h1>
-      <div className="linie"></div>
+      <div className="serviciilenoastretitle">
+        <h1>Serviciile Noastre</h1>
+      </div>
+      <div className="linie1"></div>
       <div className="produse">
-        <h2>Produsele</h2>
+        <div className="produsestyle">
+          <h2>Produsele</h2>
+        </div>
         <div className="produse1">
           <div className="produs primulprodus">
             <div className="title">
