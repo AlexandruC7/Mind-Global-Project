@@ -1,3 +1,8 @@
+* {
+  margin-top: 0;
+  box-sizing: border-box;
+}
+
 .homepage {
   width: 100%;
   height: 100vh;
@@ -39,7 +44,16 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.home-text-slogan {
+.homepage__h1,
+.homepage__p {
+  color: #fff;
+}
+
+.homepage__h1 {
+  font-size: 6em;
+}
+
+.homepage__p {
   justify-self: flex-end;
   font-size: 2em;
   color: black;
