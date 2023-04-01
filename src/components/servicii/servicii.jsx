@@ -9,6 +9,7 @@ export const Servicii = () => {
   return (
     <div className="newcomponent">
       <h1>Serviciile Noastre</h1>
+      <div className="linie"></div>
       <div className="produse">
         <h2>Produsele</h2>
         <div className="produse1">

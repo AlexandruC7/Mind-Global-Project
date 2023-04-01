@@ -38,10 +38,6 @@
   z-index: 2;
 }
 
-h1 {
-  font-size: 6em;
-}
-
 p {
   justify-self: flex-end;
   font-size: 2em;

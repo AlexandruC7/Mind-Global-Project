@@ -1,5 +1,4 @@
 .desprenoi {
-  background-color: rgb(223, 198, 72);
   display: flex;
   padding: 50px;
 
@@ -13,7 +12,7 @@
 h1 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-
+  font-size: 40px;
   margin: 0;
 }
 
