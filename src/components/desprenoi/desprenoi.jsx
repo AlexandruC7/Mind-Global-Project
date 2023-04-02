@@ -4,7 +4,9 @@ export function Desprenoi() {
   return (
     <div className="desprenoi">
       <div className="info">
-        <h1>DESPRE NOI</h1>
+        <div className="desprenoititle">
+          <h1>DESPRE NOI</h1>
+        </div>
         <div className="linie"></div>
 
         <p className="text">Bine ai venit la noua agentie de publicitate!</p>

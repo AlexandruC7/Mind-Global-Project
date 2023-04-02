@@ -38,10 +38,10 @@
   z-index: 2;
 }
 
-p {
+.home-text-slogan {
   justify-self: flex-end;
   font-size: 2em;
-  text-transform: uppercase;
+  color: gold
 }
 
 .home-btn {
@@ -66,4 +66,9 @@ p {
 
 a {
   text-decoration: none;
+}
+.home-text h1{
+  color: black;
+  font-size: 60px;
+  text-shadow: 2px 2px rgb(228, 194, 0)
 }
