@@ -4,14 +4,16 @@ import MovingIcon from "@mui/icons-material/Moving";
 import ReceiptIcon from "@mui/icons-material/Receipt";
 import FeaturedPlayListIcon from "@mui/icons-material/FeaturedPlayList";
 import YardIcon from "@mui/icons-material/Yard";
+import SignpostIcon from "@mui/icons-material/Signpost";
+import NoCrashIcon from "@mui/icons-material/NoCrash";
 
 export const Servicii = () => {
   return (
-    <div className="newcomponent">
+    <div className="servicii_page">
       <div className="serviciilenoastretitle">
         <h1>Serviciile Noastre</h1>
       </div>
-      <div className="linie1"></div>
+      <div className="linie"></div>
       <div className="produse">
         <div className="produsestyle">
           <h2>Produsele</h2>
@@ -21,7 +23,7 @@ export const Servicii = () => {
             <div className="title">
               <AddCardIcon />
 
-              <h3 className="class">Cărți de vizită</h3>
+              <h3>Cărți de vizită</h3>
             </div>
             <p className="text">
               cartelă cu numele Dvs., denumirea companiei şi datele de contact.
@@ -31,7 +33,7 @@ export const Servicii = () => {
           <div className="produs aldoileaprodus">
             <div className="title">
               <ReceiptIcon />
-              <h3 className="class">Pliante</h3>
+              <h3>Pliante</h3>
             </div>
             <p className="text">
               Tipăritură conținând fotografii, prospecte, cataloage, informații
@@ -42,7 +44,7 @@ export const Servicii = () => {
           <div className="produs altreileaprodus">
             <div className="title">
               <FeaturedPlayListIcon />
-              <h3 className="class">Panou Publicitar</h3>
+              <h3>Panou Publicitar</h3>
             </div>
             <p className="text">
               O structură instalată atât pe fațada clădirii, chiar în fața
@@ -52,20 +54,26 @@ export const Servicii = () => {
           <div className="produs al patruleaprodus">
             <div className="title">
               <YardIcon />
-              1`1`
-              <h3 className="class">Placuțe Personalizate</h3>
+
+              <h3>Placuțe Personalizate</h3>
             </div>
             <p className="text">Logo + alte informații la preferință</p>
           </div>
           <div className="produs al cinceleaprodus">
-            <h3 className="class">Semne Contravenționale</h3>
+            <div className="title">
+              <SignpostIcon />
+              <h3>Semne Contravenționale</h3>
+            </div>
             <p className="text">
               Figuri simbolice întrebuințate pentru a marca diferite notări pe
               hărți, planșe etc. Traduceri.
             </p>
           </div>
           <div className="produs al saseleaprodus">
-            <h3 className="class">Colatare Auto</h3>
+            <div className="title">
+              <NoCrashIcon />
+              <h3>Colatare Auto</h3>
+            </div>
             <p className="text">Bandarea mașinii sau a unor piese Auto</p>
           </div>
         </div>

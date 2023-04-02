@@ -8,11 +8,12 @@ export const Homepage = () => {
       <div className="bg-overlay"></div>
 
       <div className="home-text">
-        <h1>Mind Global</h1>
+        <h1>MIND GLOBAL</h1>
 
-        <p> Design grafic - dezvoltare web - promovare tv / radio / web</p>
+        <p className="home-text-slogan">
+          ORIZONTURI NOI PENTRU AFACERI DE SUCCES!
+        </p>
         <div className="home-btn">
-          {" "}
           <a href="#">Aflați mai multe</a>
         </div>
       </div>

@@ -16,14 +16,14 @@
   margin: 0;
 }
 
-.linie {
+.desprenoi .linie {
   background-color: rgba(0, 0, 0, 0.5);
   height: 2px;
   width: 50%;
   margin: 10px 0;
 }
 
-.text {
+.desprenoi .text {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 16px;
   display: flex;
