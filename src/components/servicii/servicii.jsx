@@ -6,6 +6,7 @@ import FeaturedPlayListIcon from "@mui/icons-material/FeaturedPlayList";
 import YardIcon from "@mui/icons-material/Yard";
 import SignpostIcon from "@mui/icons-material/Signpost";
 import NoCrashIcon from "@mui/icons-material/NoCrash";
+import { Serviciu } from "./serviciu";
 
 export const Servicii = () => {
   return (
@@ -19,28 +20,21 @@ export const Servicii = () => {
           <h2>Produsele</h2>
         </div>
         <div className="produse1">
-          <div className="produs primulprodus">
-            <div className="title">
-              <AddCardIcon />
+          <Serviciu
+            icon={<AddCardIcon />}
+            title={"Cărți de vizită"}
+            desc={
+              "cartelă cu numele Dvs., denumirea companiei şi datele de contact. Dimensiunile standard ale unei cărţi de vizită sunt de 90*50 mm"
+            }
+          />
+          <Serviciu
+            icon={<ReceiptIcon />}
+            title={"Pliante"}
+            desc={
+              " Tipăritură conținând fotografii, prospecte, cataloage, informații etc. imprimate pentru reclamă, îndoită de mai multe ori pentru comoditatea utilizării."
+            }
+          />
 
-              <h3>Cărți de vizită</h3>
-            </div>
-            <p className="text">
-              cartelă cu numele Dvs., denumirea companiei şi datele de contact.
-              Dimensiunile standard ale unei cărţi de vizită sunt de 90*50 mm
-            </p>
-          </div>
-          <div className="produs aldoileaprodus">
-            <div className="title">
-              <ReceiptIcon />
-              <h3>Pliante</h3>
-            </div>
-            <p className="text">
-              Tipăritură conținând fotografii, prospecte, cataloage, informații
-              etc. imprimate pentru reclamă, îndoită de mai multe ori pentru
-              comoditatea utilizării.
-            </p>
-          </div>
           <div className="produs altreileaprodus">
             <div className="title">
               <FeaturedPlayListIcon />

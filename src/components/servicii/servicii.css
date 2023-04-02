@@ -9,6 +9,7 @@
   flex-grow: 1;
   padding: 10px;
   box-sizing: border-box;
+  flex-direction: column;
 }
 
 .serviciilenoastretitle {
