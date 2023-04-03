@@ -63,16 +63,16 @@ export const Servicii = () => {
 
       <div className="servicii">
         <h2>Serviciile</h2>
-        <div className="produs">
-          <Serviciu
-            icon={<MovingIcon />}
-            title={"Site"}
-            desc={
-              " Crearea unui site bazat pe activitatea întreprinderii voastre cu scopul de a comercializa serviciile și produsele în mediul online ."
-            }
-          />
-        </div>
+
+        <Serviciu
+          icon={<MovingIcon />}
+          title={"Site"}
+          desc={
+            " Crearea unui site bazat pe activitatea întreprinderii voastre cu scopul de a comercializa serviciile și produsele în mediul online ."
+          }
+        />
       </div>
+
       <div className="icon"></div>
     </div>
   );
