@@ -38,7 +38,9 @@ export function Desprenoi() {
       </div>
 
       <div className="prezentare">
-        <a href="./prezentare.pdf">click</a>
+        <a href="./prezentare.pdf">
+          <img src="./mind_logo.jpg" alt="" />
+        </a>
       </div>
     </div>
   );
