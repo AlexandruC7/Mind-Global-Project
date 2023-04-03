@@ -44,3 +44,15 @@
   color: rgb(61, 61, 61);
   
 }
+.produsestyle{
+  border: 10px;
+  background-color: gold;
+  inline-size: 10%;
+  border-radius: 20px;
+}
+.servicii h2{
+  border: 10px;
+  background-color: gold;
+  inline-size: 10%;
+  border-radius: 20px;
+}

@@ -34,56 +34,43 @@ export const Servicii = () => {
               " Tipăritură conținând fotografii, prospecte, cataloage, informații etc. imprimate pentru reclamă, îndoită de mai multe ori pentru comoditatea utilizării."
             }
           />
-
-          <div className="produs altreileaprodus">
-            <div className="title">
-              <FeaturedPlayListIcon />
-              <h3>Panou Publicitar</h3>
-            </div>
-            <p className="text">
-              O structură instalată atât pe fațada clădirii, chiar în fața
-              intrării, cât și în interiorul camerei (birou recepție).
-            </p>
-          </div>
-          <div className="produs al patruleaprodus">
-            <div className="title">
-              <YardIcon />
-
-              <h3>Placuțe Personalizate</h3>
-            </div>
-            <p className="text">Logo + alte informații la preferință</p>
-          </div>
-          <div className="produs al cinceleaprodus">
-            <div className="title">
-              <SignpostIcon />
-              <h3>Semne Contravenționale</h3>
-            </div>
-            <p className="text">
-              Figuri simbolice întrebuințate pentru a marca diferite notări pe
-              hărți, planșe etc. Traduceri.
-            </p>
-          </div>
-          <div className="produs al saseleaprodus">
-            <div className="title">
-              <NoCrashIcon />
-              <h3>Colatare Auto</h3>
-            </div>
-            <p className="text">Bandarea mașinii sau a unor piese Auto</p>
-          </div>
+          <Serviciu
+            icon={<FeaturedPlayListIcon />}
+            title={"Panou Publicitar"}
+            desc={
+              " O structură instalată atât pe fațada clădirii, chiar în fața intrării, cât și în interiorul camerei (birou recepție)."
+            }
+          />
+          <Serviciu
+            icon={<YardIcon />}
+            title={"Placuțe Personalizate"}
+            desc={" Logo + alte informații la preferință."}
+          />
+          <Serviciu
+            icon={<SignpostIcon />}
+            title={"Semne Contravenționale"}
+            desc={
+              " Figuri simbolice întrebuințate pentru a marca diferite notări pe hărți, planșe etc. Traduceri."
+            }
+          />
+          <Serviciu
+            icon={<NoCrashIcon />}
+            title={"Colatare Auto"}
+            desc={" Bandarea mașinii sau a unor piese Auto"}
+          />
         </div>
       </div>
 
       <div className="servicii">
         <h2>Serviciile</h2>
         <div className="produs">
-          <div className="title">
-            <MovingIcon />
-            <h3 className="class2">Site</h3>
-          </div>
-          <p className="text">
-            Crearea unui site bazat pe activitatea întreprinderii voastre cu
-            scopul de a comercializa serviciile și produsele în mediul online
-          </p>
+          <Serviciu
+            icon={<MovingIcon />}
+            title={"Site"}
+            desc={
+              " Crearea unui site bazat pe activitatea întreprinderii voastre cu scopul de a comercializa serviciile și produsele în mediul online ."
+            }
+          />
         </div>
       </div>
       <div className="icon"></div>
