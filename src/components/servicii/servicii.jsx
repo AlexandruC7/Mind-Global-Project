@@ -6,7 +6,7 @@ import FeaturedPlayListIcon from "@mui/icons-material/FeaturedPlayList";
 import YardIcon from "@mui/icons-material/Yard";
 import SignpostIcon from "@mui/icons-material/Signpost";
 import NoCrashIcon from "@mui/icons-material/NoCrash";
-import { Serviciu } from "./serviciu";
+import { Serviciu } from "./serviciu/serviciu";
 
 export const Servicii = () => {
   return (
@@ -14,12 +14,14 @@ export const Servicii = () => {
       <div className="serviciilenoastretitle">
         <h1>Serviciile Noastre</h1>
       </div>
+
       <div className="linie"></div>
-      <div className="produse">
+
+      <div>
         <div className="produsestyle">
           <h2>Produsele</h2>
         </div>
-        <div className="produse1">
+        <div className="produse">
           <Serviciu
             icon={<AddCardIcon />}
             title={"Cărți de vizită"}
@@ -64,13 +66,15 @@ export const Servicii = () => {
       <div className="servicii">
         <h2>Serviciile</h2>
 
-        <Serviciu
-          icon={<MovingIcon />}
-          title={"Site"}
-          desc={
-            " Crearea unui site bazat pe activitatea întreprinderii voastre cu scopul de a comercializa serviciile și produsele în mediul online ."
-          }
-        />
+        <div className="produse">
+          <Serviciu
+            icon={<MovingIcon />}
+            title={"Site"}
+            desc={
+              " Crearea unui site bazat pe activitatea întreprinderii voastre cu scopul de a comercializa serviciile și produsele în mediul online ."
+            }
+          />
+        </div>
       </div>
 
       <div className="icon"></div>

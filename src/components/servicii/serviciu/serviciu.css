@@ -1,0 +1,40 @@
+.produs {
+  width: calc(30% - 20px);
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .produs {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
+
+.produs .header {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+
+  margin-bottom: 10px;
+}
+
+.produs .title {
+  font-size: 22px;
+  font-weight: bold;
+
+  margin-left: 10px;
+}
+
+.produs .text {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  text-align: left;
+  margin: 0;
+  color: rgb(61, 61, 61);
+}
