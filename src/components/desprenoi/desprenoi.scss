@@ -1,28 +1,35 @@
 .desprenoi {
   display: flex;
-  padding: 150px 50px;
+  padding: 100px 50px;
   background: rgba(7, 7, 56, 0.403);
+
+  &-info {
+    width: 50%;
+  }
 }
 
-.info {
+.desprenoi-prezentare {
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.desprenoititle {
+.desprenoi-info_title {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 30px;
   margin: 0;
 }
 
-.desprenoi .linie {
+.desprenoi-info_linie {
   background-color: rgba(0, 0, 0, 0.5);
   height: 2px;
   width: 50%;
   margin: 10px 0;
 }
 
-.desprenoi .text {
+.desprenoi-info_text {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 16px;
@@ -30,13 +37,6 @@
   text-align: left;
   margin: 0;
   color: rgb(61, 61, 61);
-}
-
-.prezentare {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .prezentare img {
@@ -49,5 +49,29 @@
 
 .prezentare img:hover {
   box-shadow: 0px 10px 10px 0 rgba(0, 0, 0, 0.1);
+
   width: 265px;
+}
+
+@media only screen and (max-width: 600px) {
+  .desprenoi {
+    flex-direction: column;
+    padding: 50px 30px;
+
+    .text {
+      font-size: 14px;
+    }
+  }
+
+  .desprenoititle {
+    font-size: 20px;
+  }
+
+  .info {
+    width: 100%;
+  }
+
+  .prezentare {
+    width: 100%;
+  }
 }
