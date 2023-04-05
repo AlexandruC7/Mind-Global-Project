@@ -3,6 +3,8 @@ import RoomIcon from "@mui/icons-material/Room";
 import CallIcon from "@mui/icons-material/Call";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import MailIcon from "@mui/icons-material/Mail";
+import React from "react";
+
 export const Contacte = () => {
   return (
     <div className="contact">
