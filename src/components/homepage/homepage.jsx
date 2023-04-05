@@ -1,9 +1,11 @@
 import "./homepage.css";
 
+import React from "react";
+
 export const Homepage = () => {
   return (
     <div className="homepage">
-      <video src="./video-bg.mp4" autoPlay muted loop class="video-bg" />
+      <video src="./video-bg.mp4" autoPlay muted loop className="video-bg" />
       <div className="bg-overlay"></div>
       <div className="home-text">
         <h1 className="homepage__h1">MIND GLOBAL</h1>

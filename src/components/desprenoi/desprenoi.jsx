@@ -1,5 +1,7 @@
 import "./desprenoi.scss";
 
+import React from "react";
+
 export function Desprenoi() {
   return (
     <div className="desprenoi" id="desprenoi">

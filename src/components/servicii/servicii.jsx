@@ -9,6 +9,8 @@ import NoCrashIcon from "@mui/icons-material/NoCrash";
 import { Serviciu } from "./serviciu/serviciu";
 import { Button } from "../button/button";
 
+import React from "react";
+
 export const Servicii = () => {
   return (
     <div className="servicii_page">
@@ -72,21 +74,24 @@ export const Servicii = () => {
             icon={<AddCardIcon />}
             title={"Cărți de vizită"}
             desc={
-              " Crearea unui site bazat pe activitatea întreprinderii voastre cu scopul de a comercializa serviciile și produsele în mediul online ."}
+              " Crearea unui site bazat pe activitatea întreprinderii voastre cu scopul de a comercializa serviciile și produsele în mediul online ."
+            }
             button={<Button variant="warning"> Adaugă în coș</Button>}
           />
           <Serviciu
             icon={<ReceiptIcon />}
             title={"Pliante"}
             desc={
-              " Crearea unui site bazat pe activitatea întreprinderii voastre cu scopul de a comercializa serviciile și produsele în mediul online ."}
+              " Crearea unui site bazat pe activitatea întreprinderii voastre cu scopul de a comercializa serviciile și produsele în mediul online ."
+            }
             button={<Button variant="warning"> Adaugă în coș</Button>}
           />
           <Serviciu
             icon={<FeaturedPlayListIcon />}
             title={"Panou Publicitar"}
             desc={
-              " Crearea unui site bazat pe activitatea întreprinderii voastre cu scopul de a comercializa serviciile și produsele în mediul online ."}
+              " Crearea unui site bazat pe activitatea întreprinderii voastre cu scopul de a comercializa serviciile și produsele în mediul online ."
+            }
             button={<Button variant="warning"> Adaugă în coș</Button>}
           />
         </div>
@@ -96,25 +101,27 @@ export const Servicii = () => {
             icon={<YardIcon />}
             title={"Placuțe Personalizate"}
             desc={
-              " Crearea unui site bazat pe activitatea întreprinderii voastre cu scopul de a comercializa serviciile și produsele în mediul online ."}
+              " Crearea unui site bazat pe activitatea întreprinderii voastre cu scopul de a comercializa serviciile și produsele în mediul online ."
+            }
             button={<Button variant="warning"> Adaugă în coș</Button>}
           />
           <Serviciu
             icon={<SignpostIcon />}
             title={"Semne Contravenționale"}
             desc={
-              " Crearea unui site bazat pe activitatea întreprinderii voastre cu scopul de a comercializa serviciile și produsele în mediul online ."}
+              " Crearea unui site bazat pe activitatea întreprinderii voastre cu scopul de a comercializa serviciile și produsele în mediul online ."
+            }
             button={<Button variant="warning"> Adauga in cos</Button>}
           />
           <Serviciu
             icon={<NoCrashIcon />}
             title={"Colatare Auto"}
             desc={
-              " Crearea unui site bazat pe activitatea întreprinderii voastre cu scopul de a comercializa serviciile și produsele în mediul online ."}
+              " Crearea unui site bazat pe activitatea întreprinderii voastre cu scopul de a comercializa serviciile și produsele în mediul online ."
+            }
             button={<Button variant="warning"> Adauga in cost</Button>}
           />
         </div>
-
       </div>
 
       <div className="icon"></div>
