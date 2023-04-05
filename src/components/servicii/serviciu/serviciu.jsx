@@ -1,7 +1,7 @@
 import "./serviciu.css";
 
 export const Serviciu = (props) => {
-  const { icon, title, desc } = props;
+  const { icon, title, desc, button } = props;
 
   return (
     <div className="produs">
@@ -11,6 +11,7 @@ export const Serviciu = (props) => {
         <span className="title">{title}</span>
       </div>
       <p className="text">{desc} </p>
+      <span className="button">{button}</span>
     </div>
   );
 };
