@@ -5,52 +5,52 @@
 
   &-info {
     width: 50%;
+
+    &_title {
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-size: 30px;
+      margin: 0;
+    }
+
+    &_linie {
+      background-color: rgba(0, 0, 0, 0.5);
+      height: 2px;
+      width: 50%;
+      margin: 10px 0;
+    }
+
+    &_text {
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-size: 16px;
+      display: flex;
+      text-align: left;
+      margin: 0;
+      color: rgb(61, 61, 61);
+    }
   }
-}
 
-.desprenoi-prezentare {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  &-prezentare {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-.desprenoi-info_title {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 30px;
-  margin: 0;
-}
+    img {
+      width: 250px;
+      box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.1);
+      border: 2px solid #c9c9c9;
+      border-radius: 15px;
+      transition: all 0.1s linear;
+    }
 
-.desprenoi-info_linie {
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 2px;
-  width: 50%;
-  margin: 10px 0;
-}
+    img:hover {
+      box-shadow: 0px 10px 10px 0 rgba(0, 0, 0, 0.1);
 
-.desprenoi-info_text {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 16px;
-  display: flex;
-  text-align: left;
-  margin: 0;
-  color: rgb(61, 61, 61);
-}
-
-.prezentare img {
-  width: 250px;
-  box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.1);
-  border: 2px solid #c9c9c9;
-  border-radius: 15px;
-  transition: all 0.1s linear;
-}
-
-.prezentare img:hover {
-  box-shadow: 0px 10px 10px 0 rgba(0, 0, 0, 0.1);
-
-  width: 265px;
+      width: 265px;
+    }
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -58,20 +58,19 @@
     flex-direction: column;
     padding: 50px 30px;
 
-    .text {
-      font-size: 14px;
+    &-info {
+      width: 100%;
+
+      &_text {
+        font-size: 14px;
+      }
+      &_title {
+        font-size: 20px;
+      }
     }
-  }
 
-  .desprenoititle {
-    font-size: 20px;
-  }
-
-  .info {
-    width: 100%;
-  }
-
-  .prezentare {
-    width: 100%;
+    &-prezentare {
+      width: 100%;
+    }
   }
 }
