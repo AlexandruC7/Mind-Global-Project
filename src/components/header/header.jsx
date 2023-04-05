@@ -1,12 +1,7 @@
 import "./header.css";
 import { useRef } from "react";
-// import { FaBars, FaTimes } from "react-icons/fa";
-{
-  /* <script
-  src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
-  type="text/javascript"
-></script>; */
-}
+import CloseIcon from "@mui/icons-material/Close";
+import MenuIcon from "@mui/icons-material/Menu";
 
 export const Header = () => {
   //function Navbar() {
@@ -24,13 +19,11 @@ export const Header = () => {
         <a href="/#">Servicii</a>
         <a href="/#">Contacte</a>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-          {/* <FaTimes /> */}
-          icon
+          <CloseIcon />
         </button>
       </nav>
       <button className="nav-btn" onClick={showNavbar}>
-        {/* <FaBars /> */}
-        icon
+        <MenuIcon />
       </button>
     </header>
   );
