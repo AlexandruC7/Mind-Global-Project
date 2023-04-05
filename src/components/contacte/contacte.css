@@ -1,5 +1,130 @@
-.contacte {
-  background-color: aquamarine;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-  height: 50vh;
+
+.contact{
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+ }
+ .constact-section{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.contact-info{
+  max-width: 500px;
+  line-height: 65px;
+  padding-left: 50px;
+  font-size: 18px;
+
+}
+.iconita{
+ margin-right: 20px;
+ font-size: 25px;
+}
+
+.posta{
+display: flex;
+justify-content: center;
+}
+.Location{
+display: flex;
+justify-content: center;
+}
+.call{
+display: flex;
+justify-content: center;
+}
+.accestime{
+display: flex;
+justify-content: center;
+}
+
+.mailicon{
+  margin-right: 20px;
+  font-size: 25px;
+  
+}
+.calliconita{
+  margin-right: 20px;
+  font-size: 25px;
+}
+.accestimeiconit{
+  margin-right: 20px;
+  font-size: 25px;
+}
+.contact-US{
+ max-width: 700px;
+ margin-right: 50px;
+}
+.contact-info, .contact-US{
+ flex: 1;
+}
+.contact-US h1{
+ text-align: center;
+ font-size: 35px;
+ text-transform: uppercase;
+ margin-bottom: 30px; 
+}
+.inputuri{
+  display: flex;
+  justify-content: center;
+}
+
+.contact-US .text-box{
+ background: #000;
+ color: #fff;
+ border: none;
+ width: calc(50% - 10px);
+ height: 50px;
+ padding: 12px;
+ font-size: 15px;
+ border-radius: 15px;
+ box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+ margin-bottom: 20px;
+ opacity: 0.9;
+}
+.inputuri{
+display: flex;
+justify-content: center;
+}
+.contact-US .text-box:first-child{
+ margin-right: 15px;
+}
+.contact-US textarea{
+  background: #000;
+  color:#fff;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  min-height: 200px;
+  max-height: 400px;
+  resize: vertical;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgb(0,0,0,0.1);
+  margin-bottom:20px ;
+  opacity: 0.9;
+}
+.contact-US .send-btn{
+ float: right;
+ background: #E4B000 ;
+ color: #fff;
+ border: none;
+ width: 120px;
+ height: 40px;
+ font-size: 15px;
+ font-weight: 600;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+ transition-property: background;
+}
+.contact-US .send-btn:hover{
+background: #EAE4D1 ;
 }
