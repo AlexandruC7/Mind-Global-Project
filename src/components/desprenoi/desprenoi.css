@@ -1,9 +1,7 @@
 .desprenoi {
   display: flex;
-  padding: 50px;
-
-  height: calc(100vh - 100px);
-  background: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("../../../public/mind_logo.jpg") no-repeat center ;
+  padding: 150px 50px;
+  background: rgba(7, 7, 56, 0.403);
 }
 
 .info {
@@ -25,7 +23,8 @@
 }
 
 .desprenoi .text {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 16px;
   display: flex;
   text-align: left;
@@ -41,14 +40,14 @@
 }
 
 .prezentare img {
-  width: 260px;
+  width: 250px;
   box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.1);
   border: 2px solid #c9c9c9;
   border-radius: 15px;
-  transition: all 0.3s linear;
+  transition: all 0.1s linear;
 }
 
 .prezentare img:hover {
   box-shadow: 0px 10px 10px 0 rgba(0, 0, 0, 0.1);
-  width: 155px;
+  width: 265px;
 }

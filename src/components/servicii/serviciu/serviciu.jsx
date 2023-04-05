@@ -1,12 +1,14 @@
+import "./serviciu.css";
+
 export const Serviciu = (props) => {
   const { icon, title, desc } = props;
 
   return (
     <div className="produs">
-      <div className="title">
+      <div className="header">
         {icon}
 
-        <h3>{title}</h3>
+        <span className="title">{title}</span>
       </div>
       <p className="text">{desc} </p>
     </div>
