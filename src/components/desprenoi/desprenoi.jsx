@@ -2,7 +2,7 @@ import "./desprenoi.css";
 
 export function Desprenoi() {
   return (
-    <div className="desprenoi">
+    <div className="desprenoi" id="desprenoi">
       <div className="info">
         <div className="desprenoititle">
           <h1>DESPRE NOI</h1>

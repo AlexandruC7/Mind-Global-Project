@@ -14,10 +14,10 @@ export const Header = () => {
     <header id="navbar">
       <h3>MindGlobal</h3>
       <nav ref={navRef}>
-        <a href="/#">Acasa</a>
-        <a href="/#">Despre</a>
-        <a href="/#">Servicii</a>
-        <a href="/#">Contacte</a>
+        <a href="#">Acasa</a>
+        <a href="#desprenoi">Despre</a>
+        <a href="#">Servicii</a>
+        <a href="#">Contacte</a>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <CloseIcon />
         </button>
