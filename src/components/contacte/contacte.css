@@ -9,7 +9,7 @@
   align-items:center;
  }
  .constact-section{
-  width:100%;
+  width:30%;
   display: flex;
   justify-content: center;
   align-items:center;
@@ -22,40 +22,18 @@
 
 }
 .iconita{
- margin-right: 20px;
- font-size: 25px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.iconita .text{
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 10px;
 }
 
-.posta{
-display: flex;
-justify-content: center;
-}
-.Location{
-display: flex;
-justify-content: center;
-}
-.call{
-display: flex;
-justify-content: center;
-}
-.accestime{
-display: flex;
-justify-content: center;
-}
 
-.mailicon{
-  margin-right: 20px;
-  font-size: 25px;
-  
-}
-.calliconita{
-  margin-right: 20px;
-  font-size: 25px;
-}
-.accestimeiconit{
-  margin-right: 20px;
-  font-size: 25px;
-}
 .contact-US{
  max-width: 700px;
  margin-right: 50px;
@@ -87,10 +65,7 @@ justify-content: center;
  margin-bottom: 20px;
  opacity: 0.9;
 }
-.inputuri{
-display: flex;
-justify-content: center;
-}
+
 .contact-US .text-box:first-child{
  margin-right: 15px;
 }
@@ -110,21 +85,25 @@ justify-content: center;
   opacity: 0.9;
 }
 .contact-US .send-btn{
- float: right;
- background: #E4B000 ;
- color: #fff;
- border: none;
- width: 120px;
- height: 40px;
- font-size: 15px;
- font-weight: 600;
- text-transform: uppercase;
- letter-spacing: 2px;
- border-radius: 5px;
- cursor: pointer;
- transition: 0.3s;
- transition-property: background;
+  width: auto;
+  height: 45px;
+  border: 2px solid white;
+  z-index: 1;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 5px;
+background-color: rgba(255, 255, 255, 0.901);
+position: absolute;
+  left: 82%;
 }
 .contact-US .send-btn:hover{
-background: #EAE4D1 ;
+  background-color: gold ;
+  
 }
