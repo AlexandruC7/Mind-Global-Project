@@ -1,10 +1,12 @@
 import "./header.css";
 import { useRef } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
-<script
+// import { FaBars, FaTimes } from "react-icons/fa";
+{
+  /* <script
   src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
   type="text/javascript"
-></script>;
+></script>; */
+}
 
 export const Header = () => {
   //function Navbar() {
@@ -22,11 +24,13 @@ export const Header = () => {
         <a href="/#">Servicii</a>
         <a href="/#">Contacte</a>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-          <FaTimes />
+          {/* <FaTimes /> */}
+          icon
         </button>
       </nav>
       <button className="nav-btn" onClick={showNavbar}>
-        <FaBars />
+        {/* <FaBars /> */}
+        icon
       </button>
     </header>
   );
