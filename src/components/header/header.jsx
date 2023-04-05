@@ -2,12 +2,18 @@ import "./header.css";
 import React, { useRef } from "react";
 import CloseIcon from "@mui/icons-material/Close";
 import MenuIcon from "@mui/icons-material/Menu";
+import {
+  Link,
+  //  useNavigate
+} from "react-router-dom";
 
 export const Header = () => {
   const navRef = useRef();
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive_nav");
   };
+
+  //  const navigate = useNavigate();
 
   return (
     <header id="navbar">
@@ -17,7 +23,17 @@ export const Header = () => {
       <nav ref={navRef}>
         <a href="#">Acasa</a>
         <a href="#desprenoi">Despre Noi</a>
-        <a href="#">Prețuri</a>
+
+        {/* <a
+          href="#"
+          onClick={() => {
+            navigate("/price");
+          }}
+        >
+          Prețuri
+        </a> */}
+
+        <Link to={"/price"}>Prețuri</Link>
         <a href="#">Servicii</a>
         <a href="#">Contacte</a>
         <a href="#">Coș</a>

@@ -31,7 +31,14 @@ export const Contacte = () => {
           </div>
         </div>
       </div>
-      <div class="contact-US">
+      <form
+        class="contact-US"
+        onSubmit={(event) => {
+          event.preventDefault();
+
+          console.log(event);
+        }}
+      >
         <h1> Contact-US</h1>
         <div class="inputuri">
           <input
@@ -61,7 +68,7 @@ export const Contacte = () => {
           class="send-btn"
           value="Send"
         ></input>
-      </div>
+      </form>
     </div>
   );
 };
