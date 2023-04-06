@@ -6,8 +6,8 @@ import FeaturedPlayListIcon from "@mui/icons-material/FeaturedPlayList";
 import YardIcon from "@mui/icons-material/Yard";
 import SignpostIcon from "@mui/icons-material/Signpost";
 import NoCrashIcon from "@mui/icons-material/NoCrash";
+import MovingIcon from "@mui/icons-material/Moving";
 import { Serviciu } from "./serviciu/serviciu";
-import { Button } from "../button/button";
 
 import React from "react";
 
@@ -17,8 +17,6 @@ export const Servicii = () => {
       <div className="serviciilenoastretitle">
         <h1>Serviciile Noastre</h1>
       </div>
-
-      <div className="linie"></div>
 
       <div>
         <div className="produsestyle">
@@ -71,55 +69,11 @@ export const Servicii = () => {
 
         <div className="produse">
           <Serviciu
-            icon={<AddCardIcon />}
-            title={"Cărți de vizită"}
+            icon={<MovingIcon />}
+            title={"Site"}
             desc={
               " Crearea unui site bazat pe activitatea întreprinderii voastre cu scopul de a comercializa serviciile și produsele în mediul online ."
             }
-            button={<Button variant="warning"> Adaugă în coș</Button>}
-          />
-          <Serviciu
-            icon={<ReceiptIcon />}
-            title={"Pliante"}
-            desc={
-              " Crearea unui site bazat pe activitatea întreprinderii voastre cu scopul de a comercializa serviciile și produsele în mediul online ."
-            }
-            button={<Button variant="warning"> Adaugă în coș</Button>}
-          />
-          <Serviciu
-            icon={<FeaturedPlayListIcon />}
-            title={"Panou Publicitar"}
-            desc={
-              " Crearea unui site bazat pe activitatea întreprinderii voastre cu scopul de a comercializa serviciile și produsele în mediul online ."
-            }
-            button={<Button variant="warning"> Adaugă în coș</Button>}
-          />
-        </div>
-
-        <div className="produse">
-          <Serviciu
-            icon={<YardIcon />}
-            title={"Placuțe Personalizate"}
-            desc={
-              " Crearea unui site bazat pe activitatea întreprinderii voastre cu scopul de a comercializa serviciile și produsele în mediul online ."
-            }
-            button={<Button variant="warning"> Adaugă în coș</Button>}
-          />
-          <Serviciu
-            icon={<SignpostIcon />}
-            title={"Semne Contravenționale"}
-            desc={
-              " Crearea unui site bazat pe activitatea întreprinderii voastre cu scopul de a comercializa serviciile și produsele în mediul online ."
-            }
-            button={<Button variant="warning"> Adauga in cos</Button>}
-          />
-          <Serviciu
-            icon={<NoCrashIcon />}
-            title={"Colatare Auto"}
-            desc={
-              " Crearea unui site bazat pe activitatea întreprinderii voastre cu scopul de a comercializa serviciile și produsele în mediul online ."
-            }
-            button={<Button variant="warning"> Adauga in cost</Button>}
           />
         </div>
       </div>
