@@ -21,12 +21,7 @@
   text-align: center;
 }
 
-.servicii_page .linie {
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 2px;
-  width: 30%;
-  margin: 10px auto;
-}
+
 
 .produsestyle h2,
 .servicii h2 {

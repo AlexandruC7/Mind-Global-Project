@@ -32,7 +32,7 @@ export const Contacte = () => {
         </div>
       </div>
       <form
-        class="contact-US"
+        className="contact-US"
         onSubmit={(event) => {
           event.preventDefault();
 
@@ -40,18 +40,18 @@ export const Contacte = () => {
         }}
       >
         <h1> Contact-US</h1>
-        <div class="inputuri">
+        <div className="inputuri">
           <input
             type="text"
             name="name"
-            class="text-box"
+            className="text-box"
             placeholder="Your Name"
             required
           ></input>
           <input
             type="text"
             name="email"
-            class="text-box"
+            className="text-box"
             placeholder="Your Email"
             required
           ></input>
@@ -65,7 +65,7 @@ export const Contacte = () => {
         <input
           type="submit"
           name="submit"
-          class="send-btn"
+          className="send-btn"
           value="Send"
         ></input>
       </form>
