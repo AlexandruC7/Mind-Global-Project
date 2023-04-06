@@ -13,7 +13,7 @@ import React from "react";
 
 export const Servicii = () => {
   return (
-    <div className="servicii_page">
+    <div className="servicii_page" id="servicii">
       <div className="serviciilenoastretitle">
         <h1>Serviciile Noastre</h1>
       </div>

@@ -23,6 +23,8 @@ export const Header = () => {
       <nav ref={navRef}>
         <a href="#">Acasa</a>
         <a href="#desprenoi">Despre Noi</a>
+        <a href="#servicii">Servicii</a>
+        <a href="#contacte">Contacte</a>
 
         {/* <a
           href="#"
@@ -34,9 +36,8 @@ export const Header = () => {
         </a> */}
 
         <Link to={"/price"}>Prețuri</Link>
-        <a href="#">Servicii</a>
-        <a href="#">Contacte</a>
-        <a href="#">Coș</a>
+
+        <Link to={"/shop"}>Coș</Link>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <CloseIcon />
         </button>
