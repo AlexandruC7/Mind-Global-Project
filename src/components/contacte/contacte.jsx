@@ -7,7 +7,7 @@ import React from "react";
 
 export const Contacte = () => {
   return (
-    <div className="contact">
+    <div className="contact" id="contacte">
       <div className="constact-section">
         <div className="contact-info">
           <div className="iconita">
