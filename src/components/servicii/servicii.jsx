@@ -77,7 +77,6 @@ export const Servicii = () => {
           />
         </div>
       </div>
-
       <div className="icon"></div>
     </div>
   );
