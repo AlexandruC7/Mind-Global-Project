@@ -25,6 +25,7 @@ export const Header = () => {
         <a href="#desprenoi">Despre Noi</a>
         <a href="#servicii">Servicii</a>
         <a href="#contacte">Contacte</a>
+        <a href="#Cont">Cont</a>
 
         {/* <a
           href="#"
