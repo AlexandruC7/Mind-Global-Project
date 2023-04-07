@@ -1,4 +1,4 @@
-import { Button, Checkbox, FormControlLabel, FormGroup } from "@mui/material";
+import { Button, RadioGroup, FormControlLabel, Radio } from "@mui/material";
 
 export const ProductsPrice = ({ icon, title, preturi }) => {
   const handleSubmit = (e) => {
@@ -13,17 +13,17 @@ export const ProductsPrice = ({ icon, title, preturi }) => {
         {title}
       </div>
       <form onSubmit={handleSubmit}>
-        <FormGroup name="preturi">
+        <RadioGroup name="preturi">
           {preturi.map((pret) => {
             return (
               <FormControlLabel
                 value={pret}
-                control={<Checkbox size="sm" />}
+                control={<Radio size="sm" />}
                 label={pret}
               />
             );
           })}
-        </FormGroup>
+        </RadioGroup>
 
         <Button type="submit" variant="contained">
           Adauga in cos

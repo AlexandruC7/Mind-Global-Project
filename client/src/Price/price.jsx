@@ -41,52 +41,46 @@ export const Price = () => {
           "Mărime mică ( 800-500*4 mm ) - 100 euro",
         ]}
       />
-
-      <div className="PricePage_product">
-        <div className="PricePage_product_title">
-          <YardIcon />
-          Placuțe Personalizate
-        </div>
-        <p>
-          Placă cu nume (520-110mm )-20 euro <br /> Placă cu text (350-200 mm
-          )-25 euro <br />
-          Placă luminoasă cu nume (1000-100 mm )-60 euro
-        </p>
-      </div>
-      <div className="PricePage_product">
-        <div className="PricePage_product_title">
-          <SignpostIcon />
-          Semne Contravenționale
-        </div>
-        <p>
-          Adresa personalizată -23 euro <br /> Indicatoare rutiere -13 euro{" "}
-          <br /> Nume auto personalizat -30 euro
-        </p>
-      </div>
-      <div className="PricePage_product">
-        <div className="PricePage_product_title">
-          <NoCrashIcon />
-          Colatare Auto
-        </div>
-        <p>
-          Sedan -400 euro <br /> Cabina -650 euro <br /> Furg neta -800 euro
-        </p>
-      </div>
-      <div className="PricePage_product">
-        <div className="PricePage_product_title">
-          <MovingIcon />
-          Site
-        </div>
-        <p>
-          Șablon -gratis <br />
-          Site 1 pagină - 180 euro <br />
-          Site 3 pagini - 300 euro <br />
-          Site catalog - 600 euro <br />
-          Site ,,card de vizită,, - 100-400 euro <br />
-          Internet-magazin - 400-1600 euro <br />
-          Portal - 900-2400 euro
-        </p>
-      </div>
+      <ProductsPrice
+        icon={<YardIcon />}
+        title="Placuțe Personalizate"
+        preturi={[
+          "Placă cu nume (520-110mm )",
+          "Placă cu text (350-200 mm )-25 euro",
+          "Placă luminoasă cu nume (1000-100 mm )-60 euro",
+        ]}
+      />
+      <ProductsPrice
+        icon={<SignpostIcon />}
+        title="Semne Contravenționale"
+        preturi={[
+          "Adresa personalizată -23 euro",
+          "Indicatoare rutiere -13 euro",
+          "Nume auto personalizat -30 euro",
+        ]}
+      />
+      <ProductsPrice
+        icon={<NoCrashIcon />}
+        title="Colatare Auto"
+        preturi={[
+          "Sedan - 400 euro",
+          "Cabina - 650 euro",
+          "Furg neta -800 euro",
+        ]}
+      />
+      <ProductsPrice
+        icon={<MovingIcon />}
+        title="Site"
+        preturi={[
+          "Șablon -gratis",
+          "Site 1 pagină - 180 euro",
+          "Site 3 pagini - 300 euro",
+          "Site catalog - 600 euro",
+          "Site ,,card de vizită,, - 100-400 euro",
+          "Internet-magazin - 400-1600 euro",
+          "Portal - 900-2400 euro",
+        ]}
+      />
     </div>
   );
 };
