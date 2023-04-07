@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./page1/Home";
+import Home from "./Home/Home";
 import "./index.css";
-import { Price } from "./page1/price";
-import { Shop } from "./page2/shop";
+import { Price } from "./Price/price";
+import { Shop } from "./Shop/shop";
 
 export default function App() {
   return (
@@ -13,7 +13,6 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/price" element={<Price />} />
-          <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
         </Routes>
       </BrowserRouter>
