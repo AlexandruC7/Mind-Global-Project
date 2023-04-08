@@ -17,16 +17,34 @@ export const Header = () => {
 
   return (
     <header id="navbar">
-      <h3>MindGlobal</h3>
-      <img src={"./mind_logo_simple.png"} alt="" />
-
+      <div className="navbar_logo-and-image">
+        <h1>MindGlobal</h1>
+        <img src={"./mind_logo_simple.png"} alt="" />
+      </div>
       <nav ref={navRef}>
-        <a href="#">Acasa</a>
-        <a href="#desprenoi">Despre Noi</a>
-        <a href="#servicii">Servicii</a>
-        <a href="#contacte">Contacte</a>
-        <a href="#Cont">Cont</a>
-
+        <div className="alltitles">
+          <div className="navbar_titles">
+            <a href="#">Acasa</a>
+          </div>
+          <div className="navbar_titles">
+            <a href="#desprenoi">Despre Noi</a>
+          </div>
+          <div className="navbar_titles">
+            <a href="#servicii">Servicii</a>
+          </div>
+          <div className="navbar_titles">
+            <Link to={"/price"}>Prețuri</Link>
+          </div>
+          <div className="navbar_titles">
+            <a href="#contacte">Contacte</a>
+          </div>
+          <div className="navbar_titles">
+            <Link to={"/shop"}>Coș</Link>
+          </div>
+          <div className="navbar_titles">
+            <a href="#Cont">Cont</a>
+          </div>
+        </div>
         {/* <a
           href="#"
           onClick={() => {
@@ -36,9 +54,6 @@ export const Header = () => {
           Prețuri
         </a> */}
 
-        <Link to={"/price"}>Prețuri</Link>
-
-        <Link to={"/shop"}>Coș</Link>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <CloseIcon />
         </button>

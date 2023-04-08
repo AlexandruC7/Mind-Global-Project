@@ -13,7 +13,7 @@ export const ProductsPrice = ({ icon, title, preturi }) => {
         {title}
       </div>
       <form onSubmit={handleSubmit}>
-        <RadioGroup name="preturi">
+        <RadioGroup className="pricepage-information" name="preturi">
           {preturi.map((pret) => {
             return (
               <FormControlLabel
@@ -25,7 +25,7 @@ export const ProductsPrice = ({ icon, title, preturi }) => {
           })}
         </RadioGroup>
 
-        <Button type="submit" variant="contained">
+        <Button className="pricepage-button" type="submit" variant="contained">
           Adauga in cos
         </Button>
       </form>
