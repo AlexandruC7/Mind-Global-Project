@@ -7,10 +7,46 @@
 
   &_product {
     border: 1px solid rgb(73, 73, 73);
+    border-radius: 10px;
 
     form {
       display: flex;
       flex-direction: column;
+
+     
     }
+    
+    
+
   }
+
+  .pricepage-button{
+    background-color: rgba(0, 0, 0, 0.823);
+    color: gold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+ 
+  
+  }
+  .pricepage-button:hover {
+    background-color: gold;
+    color: rgba(0, 0, 0, 0.864);
+  }
+  .PricePage_product_title{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    
+
+  }
+  .pricepage-information{
+    margin: 10px;
+  }
+
 }
