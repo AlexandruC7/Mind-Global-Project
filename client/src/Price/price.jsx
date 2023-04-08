@@ -11,7 +11,7 @@ import { ProductsPrice } from "./productsPrice";
 
 export const Price = () => {
   return (
-    <div className="PricePage">
+    <div className="pricepage">
       <ProductsPrice
         icon={<AddCardIcon />}
         title="Cărți de vizită"

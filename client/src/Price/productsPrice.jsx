@@ -7,18 +7,19 @@ export const ProductsPrice = ({ icon, title, preturi }) => {
   };
 
   return (
-    <div className="PricePage_product">
-      <div className="PricePage_product_title">
+    <div className="pricepage_product">
+      <div className="pricepage_product_title">
         {icon}
         {title}
       </div>
       <form onSubmit={handleSubmit}>
         <RadioGroup className="pricepage-information" name="preturi">
-          {preturi.map((pret) => {
+          {preturi.map((pret, index) => {
             return (
               <FormControlLabel
+                key={index}
                 value={pret}
-                control={<Radio size="sm" />}
+                control={<Radio />}
                 label={pret}
               />
             );

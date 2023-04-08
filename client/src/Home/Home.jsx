@@ -8,14 +8,13 @@ import { Homepage } from "../components/homepage/homepage";
 
 function Home() {
   return (
-    <div>
+    <>
       <Header />
       <Homepage />
       <Desprenoi />
       <Servicii />
       <Contacte />
-
-    </div>
+    </>
   );
 }
 
