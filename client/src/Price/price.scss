@@ -11,10 +11,11 @@
     padding: 10px;
 
     form {
+      width: 100%;
       display: flex;
       flex-wrap: wrap;
       align-content: space-between;
-      height: calc(100% - 44px);
+      //height: calc(100% - 44px);
     }
   }
 

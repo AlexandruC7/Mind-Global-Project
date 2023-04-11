@@ -5,6 +5,8 @@ import Home from "./Home/Home";
 import "./index.css";
 import { Price } from "./Price/price";
 import { Shop } from "./Shop/shop";
+import { Logare } from "./components/logare/logare";
+import { Newacc } from "./components/create-new-account/newacc";
 
 export default function App() {
   return (
@@ -14,6 +16,8 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/price" element={<Price />} />
           <Route path="/shop" element={<Shop />} />
+          <Route path="/logare" element={<Logare />} />
+          <Route path="/newacc" element={<Newacc />} />
         </Routes>
       </BrowserRouter>
     </React.StrictMode>
