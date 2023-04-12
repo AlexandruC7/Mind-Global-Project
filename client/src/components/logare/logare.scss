@@ -3,22 +3,21 @@
     margin: auto;
     .login-page-logo-image {
         display: flex;
-        flex-direction: row-reverse;
         align-items: center;
-        width: 90%;
-
-    }
-    
-    .login-page-logo-image img {
-       
-        width: 70%;
-        margin: 0;
-    }
-    .login-page-logo-image h1 {
-        font-size: 30px;
-        margin: 0;
-
-    }
+        justify-content: center;
+        
+        h1 {
+          margin: 0;
+          font-size: 2rem;
+          color: #333;
+        }
+      
+        img {
+          margin-left: 1rem;
+          max-height: 2rem;
+          height: auto;
+        }
+      }
     form {
         position: relative;
         z-index: 1;
