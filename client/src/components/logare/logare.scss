@@ -15,14 +15,7 @@ body{
         justify-content: center;
         align-items: center;
         height: 35vh;
-         img {
-       
-            position: absolute;
-            top: -20px;
-            left: -40px;
-            max-height: 80%;
-           
-        }
+         
          h1 {
             position: absolute;
             top: 60%;
@@ -30,7 +23,7 @@ body{
             transform: translateX(-50%);
             color: white;
             font-size: 40px;
-            text-shadow: 2px 2px 5px black
+            text-shadow: 2px 2px 10px black
         }
 
     }
@@ -61,11 +54,11 @@ body{
             font-family: "Roboto", sans-serif;
             text-transform: uppercase;
             outline: 0;
-            background: gold;
+            background: rgba(0, 0, 0, 0.827);
             width: 100%;
             border: 0;
             padding: 15px;
-            color: #FFFFFF;
+            color: gold;
             font-size: 14px;
             -webkit-transition: all 0.3 ease;
             transition: all 0.3 ease;
@@ -120,4 +113,14 @@ body{
       }
       
   }
-  
+  @media (max-width: 768px) {
+    .login-page {
+      padding: 50px;
+    }
+    .login-page-logo-image h1 {
+      font-size: 24px;
+    }
+    form {
+      max-width: 280px;
+    }
+  }

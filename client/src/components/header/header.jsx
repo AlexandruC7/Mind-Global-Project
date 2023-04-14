@@ -24,19 +24,19 @@ export const Header = () => {
       <nav ref={navRef}>
         <div className="alltitles">
           <div className="navbar_titles">
-            <a href="#">Acasa</a>
+            <a href="/#">Acasa</a>
           </div>
           <div className="navbar_titles">
-            <a href="#desprenoi">Despre Noi</a>
+            <a href="/#desprenoi">Despre Noi</a>
           </div>
           <div className="navbar_titles">
-            <a href="#servicii">Servicii</a>
+            <a href="/#servicii">Servicii</a>
           </div>
           <div className="navbar_titles">
             <Link to={"/price"}>Prețuri</Link>
           </div>
           <div className="navbar_titles">
-            <a href="#contacte">Contacte</a>
+            <a href="/#contacte">Contacte</a>
           </div>
           <div className="navbar_titles">
             <Link to={"/shop"}>Coș</Link>
@@ -44,7 +44,7 @@ export const Header = () => {
           <div className="navbar_titles">
             <a href="#Cont">Cont</a>
           </div>
-          <div className="navbar_titles">
+          <div className="navbar_titles1">
             <Link to={"/logare"}>LOG IN</Link>
           </div>
         </div>

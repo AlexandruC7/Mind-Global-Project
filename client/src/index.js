@@ -7,11 +7,13 @@ import { Price } from "./Price/price";
 import { Shop } from "./Shop/shop";
 import { Logare } from "./components/logare/logare";
 import { Newacc } from "./components/create-new-account/newacc";
+import { Header } from "./components/header/header";
 
 export default function App() {
   return (
     <React.StrictMode>
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/price" element={<Price />} />
