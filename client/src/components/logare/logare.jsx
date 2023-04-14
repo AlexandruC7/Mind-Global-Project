@@ -10,7 +10,6 @@ export function Logare() {
     <div className="login-page">
       <div className="login-page-logo-image">
         <h1>WELCOME</h1>
-        <img src={"./mind_logo_simple.png"} alt="" />
       </div>
       <div className="form">
         <form className="login-form">

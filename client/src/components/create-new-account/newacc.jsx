@@ -10,7 +10,6 @@ export function Newacc() {
     <div className="newacc-page">
       <div className="newacc-page-logo-image">
         <h1>WELCOME</h1>
-        <img src={"./mind_logo_simple.png"} alt="" />
       </div>
       <div className="form">
         <form className="sigin-form">

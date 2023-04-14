@@ -20,14 +20,7 @@
             text-shadow: 2px 2px 5px black
         }
       
-        img {
-            position: absolute;
-            top: -20px;
-            left: -40px;
-            max-height: 80%;
-           
-          
-        }
+        
       }
     .form {
         position: relative;
@@ -53,11 +46,11 @@
             font-family: "Roboto", sans-serif;
             text-transform: uppercase;
             outline: 0;
-            background: gold;
+            background: rgba(0, 0, 0, 0.827);
             width: 100%;
             border: 0;
             padding: 15px;
-            color: #FFFFFF;
+            color: gold;
             font-size: 14px;
             -webkit-transition: all 0.3 ease;
             transition: all 0.3 ease;
