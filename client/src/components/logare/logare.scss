@@ -1,23 +1,42 @@
+:root{
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.152),
+        rgba(255, 255, 255, 0.152)
+      ),url("../../../public/bg-for-logpage.jpg");
+}
 .login-page {
-    width: 360px;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.152),
+        rgba(255, 255, 255, 0.152)
+      ),url("../../../public/bg-for-logpage.jpg");
     margin: auto;
     .login-page-logo-image {
+        position: relative;
         display: flex;
-        align-items: center;
         justify-content: center;
-        
-        h1 {
-          margin: 0;
-          font-size: 2rem;
-          color: #333;
+        align-items: center;
+        height: 35vh;
+         img {
+       
+            position: absolute;
+            top: -20px;
+            left: -40px;
+            max-height: 80%;
+           
         }
-      
-        img {
-          margin-left: 1rem;
-          max-height: 2rem;
-          height: auto;
+         h1 {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-size: 40px;
+            text-shadow: 2px 2px 5px gold
         }
-      }
+
+    }
+    
+    
     form {
         position: relative;
         z-index: 1;

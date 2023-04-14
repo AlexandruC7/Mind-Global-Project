@@ -1,4 +1,8 @@
 import "./newacc.scss";
+import {
+  Link,
+  //  useNavigate
+} from "react-router-dom";
 import React from "react";
 
 export function Newacc() {
@@ -9,12 +13,13 @@ export function Newacc() {
         <img src={"./mind_logo_simple.png"} alt="" />
       </div>
       <div className="form">
-        <form class="sigin-form">
+        <form className="sigin-form">
+          <input type="email" placeholder="email address" />
           <input type="text" placeholder="username" />
           <input type="password" placeholder="password" />
           <button>LOG IN</button>
           <p className="message">
-            Already registered? <a href="#">Sign In</a>
+            Already registered? <Link to={"/logare"}>Sign In</Link>
           </p>
         </form>
       </div>
