@@ -80,14 +80,15 @@
               <form action="/login" method="POST">
                 <!-- 2 column grid layout with text inputs for the first and last names -->
                 <div class="row">
-                  
+                  <!-- <div class="alert alert-danger">
+                    <strong>Error</strong>
+                  </div> -->
                   <% if (messages.error) { %>
                     <div class="alert alert-danger">
-                      <strong><%= messages.error %> </strong>
+                      <strong> <%= messages.error %> </strong>
                     </div>
-                  <% } %> 
+                    <% } %>
 
-                   
 
                   <h1 class="mb-3 h3">Login</h1>
                   
