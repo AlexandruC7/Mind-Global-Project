@@ -1,24 +1,41 @@
+:root{
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.152),
+        rgba(255, 255, 255, 0.152)
+      ),url("../../../public/bg-for-logpage.jpg");
+}
 .newacc-page {
-    width: 360px;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.152),
+        rgba(255, 255, 255, 0.152)
+      ),url("../../../public/bg-for-logpage.jpg");
     margin: auto;
     .newacc-page-logo-image {
+        position: relative;
         display: flex;
-        flex-direction: row-reverse;
+        justify-content: center;
         align-items: center;
-        width: 90%;
-
-    }
-    
-    .newacc-page-logo-image img {
-       
-        width: 70%;
-        margin: 0;
-    }
-    .newacc-page-logo-image h1 {
-        font-size: 30px;
-        margin: 0;
-
-    }
+        height: 35vh;
+      
+        h1 {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-size: 40px;
+            text-shadow: 2px 2px 5px gold
+        }
+      
+        img {
+            position: absolute;
+            top: -20px;
+            left: -40px;
+            max-height: 80%;
+           
+          
+        }
+      }
     .form {
         position: relative;
         z-index: 1;
