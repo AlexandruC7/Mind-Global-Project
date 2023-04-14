@@ -13,7 +13,7 @@ export const Homepage = () => {
         <p className="homepage__p">ORIZONTURI NOI PENTRU AFACERI DE SUCCES!</p>
 
         <div className="home-btn">
-          <a href="https://www.youtube.com/" className="homepage__a">
+          <a href="#contacte" className="homepage__a">
             Aflați mai multe
           </a>
         </div>
