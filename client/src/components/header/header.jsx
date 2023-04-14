@@ -44,6 +44,9 @@ export const Header = () => {
           <div className="navbar_titles">
             <a href="#Cont">Cont</a>
           </div>
+          <div className="navbar_titles">
+            <Link to={"/logare"}>LOG IN</Link>
+          </div>
         </div>
         {/* <a
           href="#"

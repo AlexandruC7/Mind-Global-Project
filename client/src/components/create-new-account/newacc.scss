@@ -1,22 +1,15 @@
-:root{
-    background: linear-gradient(
-        rgba(255, 255, 255, 0.152),
-        rgba(255, 255, 255, 0.152)
-      ),url("../../../public/bg-for-logpage.jpg");
-}
+
 .newacc-page {
-    background: linear-gradient(
-        rgba(255, 255, 255, 0.152),
-        rgba(255, 255, 255, 0.152)
-      ),url("../../../public/bg-for-logpage.jpg");
+  background:  url("../../../public/bg-for-logpage.jpg") no-repeat center center fixed  ;
+  background-size: cover;
     margin: auto;
+    height: 100vh;
     .newacc-page-logo-image {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 35vh;
-      
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 35vh;
         h1 {
             position: absolute;
             top: 60%;
@@ -24,7 +17,7 @@
             transform: translateX(-50%);
             color: white;
             font-size: 40px;
-            text-shadow: 2px 2px 5px gold
+            text-shadow: 2px 2px 5px black
         }
       
         img {
