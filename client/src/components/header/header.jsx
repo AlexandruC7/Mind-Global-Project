@@ -13,6 +13,10 @@ export const Header = () => {
     navRef.current.classList.toggle("responsive_nav");
   };
 
+  const handleLinkClick = () => {
+    navRef.current.classList.remove("responsive_nav");
+  };
+
   //  const navigate = useNavigate();
 
   return (
@@ -24,31 +28,49 @@ export const Header = () => {
       <nav ref={navRef}>
         <div className="alltitles">
           <div className="navbar_titles">
-            <a href="/#">Acasa</a>
+            <a href="/#" onClick={handleLinkClick}>
+              Acasa
+            </a>
           </div>
           <div className="navbar_titles">
-            <a href="/#desprenoi">Despre Noi</a>
+            <a href="/#desprenoi" onClick={handleLinkClick}>
+              Despre Noi
+            </a>
           </div>
           <div className="navbar_titles">
-            <a href="/#servicii">Servicii</a>
+            <a href="/#servicii" onClick={handleLinkClick}>
+              Servicii
+            </a>
           </div>
           <div className="navbar_titles">
-            <a href="/#lucrari-precedente">Lucrări Precedente</a>
+            <a href="/#lucrari-precedente" onClick={handleLinkClick}>
+              Lucrări Precedente
+            </a>
           </div>
           <div className="navbar_titles">
-            <Link to={"/price"}>Prețuri</Link>
+            <Link to={"/price"} onClick={handleLinkClick}>
+              Prețuri
+            </Link>
           </div>
           <div className="navbar_titles">
-            <a href="/#contacte">Contacte</a>
+            <a href="/#contacte" onClick={handleLinkClick}>
+              Contacte
+            </a>
           </div>
           <div className="navbar_titles">
-            <Link to={"/shop"}>Coș</Link>
+            <Link to={"/shop"} onClick={handleLinkClick}>
+              Coș
+            </Link>
           </div>
           <div className="navbar_titles">
-            <a href="#Cont">Cont</a>
+            <a href="#Cont" onClick={handleLinkClick}>
+              Cont
+            </a>
           </div>
           <div className="navbar_titles1">
-            <Link to={"/logare"}>LOG IN</Link>
+            <Link to={"/logare"} onClick={handleLinkClick}>
+              LOG IN
+            </Link>
           </div>
         </div>
         {/* <a
