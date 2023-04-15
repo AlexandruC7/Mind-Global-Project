@@ -33,6 +33,9 @@ export const Header = () => {
             <a href="/#servicii">Servicii</a>
           </div>
           <div className="navbar_titles">
+            <a href="/#lucrari-precedente">Lucrări Precedente</a>
+          </div>
+          <div className="navbar_titles">
             <Link to={"/price"}>Prețuri</Link>
           </div>
           <div className="navbar_titles">
