@@ -5,7 +5,6 @@ import YardIcon from "@mui/icons-material/Yard";
 import SignpostIcon from "@mui/icons-material/Signpost";
 import NoCrashIcon from "@mui/icons-material/NoCrash";
 import MovingIcon from "@mui/icons-material/Moving";
-
 import "./price.scss";
 import { ProductsPrice } from "./productsPrice";
 
