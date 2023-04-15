@@ -38,3 +38,56 @@
   margin-bottom: 60px;
   text-align: center;
 }
+@media (max-width: 1024px) {
+  .lucrari-precedente {
+    max-width: 700px;
+  }
+
+  .slick-slide img {
+    height: 250px;
+  }
+
+  .carousel-content h3 {
+    font-size: 20px;
+  }
+
+  .carousel-content p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lucrari-precedente {
+    max-width: 500px;
+  }
+
+  .slick-slide img {
+    height: 200px;
+  }
+
+  .carousel-content h3 {
+    font-size: 18px;
+  }
+
+  .carousel-content p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel {
+    max-width: 300px;
+  }
+
+  .slick-slide img {
+    height: 150px;
+  }
+
+  .carousel-content h3 {
+    font-size: 16px;
+  }
+
+  .carousel-content p {
+    font-size: 10px;
+  }
+}
