@@ -1,0 +1,29 @@
+.carousel {
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+.slick-slide img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.carousel-content {
+  text-align: center;
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+.carousel-content h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.carousel-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #777;
+}
