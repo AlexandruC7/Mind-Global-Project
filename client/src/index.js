@@ -8,12 +8,13 @@ import { Shop } from "./Shop/shop";
 import { Logare } from "./components/logare/logare";
 import { Newacc } from "./components/create-new-account/newacc";
 import { Header } from "./components/header/header";
-
+import { Footer } from "./components/footer/Footer";
 export default function App() {
   return (
     <React.StrictMode>
       <BrowserRouter>
         <Header />
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/price" element={<Price />} />
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="/logare" element={<Logare />} />
           <Route path="/newacc" element={<Newacc />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </React.StrictMode>
   );

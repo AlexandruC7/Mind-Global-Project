@@ -1,71 +1,62 @@
 import "./footer.css";
+import {
+  Link,
+  //  useNavigate
+} from "react-router-dom";
 
 export const Footer = () => {
-    return (
-      <div className="footer__info">
-   
-        <footer class="footer-distributed">
+  return (
+    <div className="footer__info">
+      <footer className="footer-distributed">
+        <div className="footer-left">
+          <h3>
+            Mind <span>Global</span>
+          </h3>
 
-			<div class="footer-left">
+          <p className="footer-links">
+            <a href="/#">Acasa</a>
 
-				<h3>Mind <span>Global</span></h3>
+            <a href="#desprenoi">Despre Noi</a>
 
-				<p class="footer-links">
-					<a href="https://en.wikipedia.org/wiki/Wiki" class="link-1">Acasa</a>
-					
-					<a href="https://en.wikipedia.org/wiki/Wiki">Despre Noi</a>
-				
-					<a href="https://en.wikipedia.org/wiki/Wiki">Servicii</a>
-				
-					<a href="https://en.wikipedia.org/wiki/Wiki">Preturi</a>
-					
-					<a href="https://en.wikipedia.org/wiki/Wiki">Cos</a>
-					
-					<a href="https://en.wikipedia.org/wiki/Wiki">Cont</a>
-				</p>
+            <a href="#servicii">Servicii</a>
 
-				<p class="footer-company-name">Mind Global © 2023</p>
-			</div>
+            <Link to={"/price"}>Prețuri</Link>
+            <Link to={"/shop"}>Coș</Link>
 
-			<div class="footer-center">
+            <a href="#Cont">Cont</a>
+          </p>
 
-				<div>
-					<i class="fa fa-map-marker"></i>
-					<p><span>or.Chișinău</span> str. Ștefan cel Mare</p>
-				</div>
+          <p className="footer-company-name">Mind Global © 2023</p>
+        </div>
 
-				<div>
-					<i class="fa fa-phone"></i>
-					<p>(+373)-78-11-11-11</p>
-				</div>
+        <div className="footer-center">
+          <div>
+            <i className="fa fa-map-marker"></i>
+            <p>
+              <span>or.Chișinău</span> str.Miron Costin 26/2
+            </p>
+          </div>
 
-				<div>
-					<i class="fa fa-envelope"></i>
-					<p><a href="mailto:mindcfem@gmail.com">mindcfem@gmail.com</a></p>
-				</div>
+          <div>
+            <i className="fa fa-phone"></i>
+            <p>+373 68 347 830</p>
+          </div>
 
-			</div>
+          <div>
+            <i className="fa fa-envelope"></i>
+            <p>
+              <a href="mailto:mindcfem@gmail.com">mindcfem@gmail.com</a>
+            </p>
+          </div>
+        </div>
 
-			<div class="footer-right">
-
-				<p class="footer-company-about">
-					<span>Site Development - ClickSchool students</span>
-					Designed by ClickSchool students
-				</p>
-
-				<div class="footer-icons">
-
-					<a href="https://en.wikipedia.org/wiki/Wiki"><i class="fa fa-facebook"></i></a>
-					<a href="https://en.wikipedia.org/wiki/Wiki"><i class="fa fa-twitter"></i></a>
-					<a href="https://en.wikipedia.org/wiki/Wiki"><i class="fa fa-linkedin"></i></a>
-					<a href="https://en.wikipedia.org/wiki/Wiki"><i class="fa fa-github"></i></a>
-
-				</div>
-
-			</div>
-
-		</footer>
-      </div>
-    );
-  };
-  
+        <div className="footer-right">
+          <p className="footer-company-about">
+            <span>Digital Marketing Agency</span>
+            Designed by ClickSchool students
+          </p>
+        </div>
+      </footer>
+    </div>
+  );
+};

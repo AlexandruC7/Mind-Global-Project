@@ -31,7 +31,11 @@ export const Contacte = () => {
           </div>
         </div>
       </div>
-      <form action="https://formsubmit.co/jeniabortnic@gmail.com" method="POST" className="contact-US">
+      <form
+        action="https://formsubmit.co/mindcfem@gmail.com"
+        method="POST"
+        className="contact-US"
+      >
         <h1> Contact-US</h1>
         <div className="inputuri">
           <input
@@ -61,7 +65,11 @@ export const Contacte = () => {
           className="send-btn"
           value="Send"
         ></input>
-        <input type="hidden" name="_autoresponse" value="Va multumim. Am primit mesajul D-stra!"></input>
+        <input
+          type="hidden"
+          name="_autoresponse"
+          value="Va multumim. Am primit mesajul D-stra!"
+        ></input>
       </form>
     </div>
   );
